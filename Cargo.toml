@@ -1,0 +1,15 @@
+[package]
+edition = "2021"
+name = "farm_plugin_console_clear"
+version = "0.0.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+farmfe_core = { version = "*" }
+farmfe_toolkit_plugin_types = { version = "*" }
+farmfe_macro_plugin = { version = "*" }
+farmfe_toolkit = { version = "*" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "*" }
