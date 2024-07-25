@@ -48,6 +48,7 @@
     "farm-plugin-console-clear",
     "rust plugin",
     "console",
-    "remove console"
+    "remove console",
+    "clear console"
   ]
 }
